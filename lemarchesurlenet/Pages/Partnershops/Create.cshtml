@@ -1,0 +1,44 @@
+﻿@page
+@model lemarchesurlenet.Pages.Partnershops.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>Partnershop</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Partnershop.ID" class="control-label"></label>
+                <input asp-for="Partnershop.ID" class="form-control" />
+                <span asp-validation-for="Partnershop.ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Partnershop.Name" class="control-label"></label>
+                <input asp-for="Partnershop.Name" class="form-control" />
+                <span asp-validation-for="Partnershop.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Partnershop.WebsiteURL" class="control-label"></label>
+                <input asp-for="Partnershop.WebsiteURL" class="form-control" />
+                <span asp-validation-for="Partnershop.WebsiteURL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
