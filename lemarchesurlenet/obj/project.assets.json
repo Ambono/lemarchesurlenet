@@ -12224,11 +12224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\lemarchesurlenetsol\\lemarchesurlenet\\lemarchesurlenet.csproj",
+      "projectUniqueName": "C:\\dev\\lemarchesurlenet\\lemarchesurlenet\\lemarchesurlenet.csproj",
       "projectName": "lemarchesurlenet",
-      "projectPath": "C:\\dev\\lemarchesurlenetsol\\lemarchesurlenet\\lemarchesurlenet.csproj",
+      "projectPath": "C:\\dev\\lemarchesurlenet\\lemarchesurlenet\\lemarchesurlenet.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\lemarchesurlenetsol\\lemarchesurlenet\\obj\\",
+      "outputPath": "C:\\dev\\lemarchesurlenet\\lemarchesurlenet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
